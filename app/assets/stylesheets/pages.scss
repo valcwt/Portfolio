@@ -1,0 +1,132 @@
+
+
+// @mixin center(){
+//   -webkit-transform: translate(-50%,-50%);
+//       -ms-transform: translate(-50%,-50%);
+//           transform: translate(-50%,-50%);
+//     left:50%;
+//     top:50%;
+// }
+
+
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,,800,900);
+html{
+  width:100%;
+  height: 100%;
+}
+body{
+  background: -webkit-linear-gradient(rgb(235, 236, 231), rgb(255, 255, 255));
+  background: linear-gradient(rgb(235, 236, 231), rgb(255, 255, 255));
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  font-family: 'Raleway', sans-serif;
+}
+// .container{
+//   position:absolute;
+//   @include center();
+
+// }
+.title{
+  font-weight: 800;
+  color: transparent;
+  font-size:120px;
+  background: url("https://phandroid.s3.amazonaws.com/wp-content/uploads/2014/05/rainbow-nebula.jpg") repeat;
+  background-position: 40% 50%;
+  -webkit-background-clip: text;
+  position:relative;
+  text-align:center;
+  line-height:90px;
+  letter-spacing: -8px;
+}
+.subtitle{
+  display: block;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top:10px;
+}
+
+
+.navbar-lewagon {
+  justify-content: space-between;
+  background:white;
+  color:black;
+}
+
+.navbar-lewagon .navbar-collapse {
+  flex-grow: 0;
+}
+
+.navbar-lewagon .navbar-brand img {
+  width: 40px;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(0,0,0,.5);
+    font-size: 20px;
+
+}
+
+
+
+.module-header{
+
+margin: 0 0 50px;
+    text-align: center;
+}
+
+.module-title {
+    position: relative;
+    margin-bottom: 50px;
+    font-weight: 300;
+    color: #5b5963;
+}
+
+.module-title span {
+    font-size: 100px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    text-align: center;
+    top: -40px;
+    z-index: 0;
+    opacity: 0.05;
+    font-weight: 700;
+}
+
+.module-line{
+background: #666;
+    width: 55px;
+    height: 1px;
+    margin: 30px auto;
+}
+
+.lead {
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.4;
+
+
+
+    text-align: center;
+
+}
+
+.module{
+padding: 41px 0 100px;
+
+
+
+}
+
+.rounded-circle {
+  width:300px;
+}
+
+.text{
+  margin-top: 52PX;
+}
+
+
+
+
