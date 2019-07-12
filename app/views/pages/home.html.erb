@@ -1,78 +1,72 @@
-<div class="navbar navbar-expand-sm navbar-light navbar-lewagon">
 
-  <%= link_to "#", class: "navbar-brand" do %>
-    <%= image_tag "https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/logo.png" %>
-  <% end %>
+<div id="particles-js"></div>
 
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+<script src="particles.js"></script>
+
+<div class="sticky-top">
+  <div class="navbar navbar-expand-sm navbar-light navbar-lewagon">
+
+    <%= link_to "#", class: "navbar-brand" do %>
+      <%= image_tag "https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/logo.png" %>
+    <% end %>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <%= link_to "Home", "#", class: "nav-link" %>
-      </li>
-      <li class="nav-item">
-        <%= link_to "Présentation", "#", class: "nav-link" %>
-      </li>
-       <li class="nav-item">
-        <%= link_to "Réalisations", "#", class: "nav-link" %>
-      </li>
-       <li class="nav-item">
-        <%= link_to "Formations", "#", class: "nav-link" %>
-      </li>
-      <li class="nav-item">
-        <%= link_to "Contact", "#", class: "nav-link" %>
-         </li>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <%= link_to "Home", "#", class: "nav-link" %>
+        </li>
+        <li class="nav-item">
+          <%= link_to "Présentation", "#", class: "nav-link" %>
+        </li>
+         <li class="nav-item">
+          <%= link_to "Réalisations", "#", class: "nav-link" %>
+        </li>
+         <li class="nav-item">
+          <%= link_to "Compétences", "#", class: "nav-link" %>
+        </li>
+         <li class="nav-item">
+          <%= link_to "Parcours", "#", class: "nav-link" %>
+        </li>
+        <li class="nav-item">
+          <%= link_to "Contact", "#", class: "nav-link" %>
+           </li>
+           <li class="nav-item">
+          <%= link_to "Mon cv", "#", class: "nav-link" %>
+           </li>
 
-        </div>
-      </li>
+          </div>
+        </li>
 
-    </ul>
+      </ul>
+
+    </div>
 
   </div>
-
 </div>
 
-
-<br>
-<br>
-<br>
-<br>
-
-<br>
-<br>
-<br>
-<br>
 
 
 <!-- -------------------------------------- -->
 <!-- If you don't see it u probably are using a browser not based on webkit, so leave IE and grab anything else (Y) -->
 <!-- UPDATE: works in Chrome & Safari, not Firefox. To solve that you could use an SVG insted of pure text. -->
 
+<!-- --------HEAD------------------------ -->
 
-    <div class="container">
+    <div class="container head">
       <div class="title">
       Développeur Web</div>
       <div class="subtitle">Full-stack || Ruby on rails </div>
     </div>
 
 
-<!-- -------------------------------------- -->
+<!-- -----------END------------------------- -->
 
-
-<br>
-<br>
-<br>
-<br>
-
-<br>
-<br>
-<br>
-<br>
-
+<!-- ------------Presentation--------------------- -->
 
 <section id="présentation" class="module">
 
@@ -87,7 +81,7 @@
 </section>
 
 
-<div class="container  ">
+<div class="container FIRST  ">
 
   <div class="row">
    <div class="col">
@@ -110,9 +104,12 @@
   </div>
     </div>
 </div>
+<!-- -----------END------------------------- -->
 
 
-<section id="présentation" class="module">
+<!-- ------------Réalisation--------------------- -->
+
+<section id="realisation" class="module">
 
   <div class="container">
     <div class="module-header">
@@ -122,5 +119,104 @@
     </div>
   </div>
   <div class="module-line"></div>
+
+  <div class="container">
+      <ul class="nav justify-content-center">
+    <li class="nav-item">
+      <a class="nav-link active" href="#">BLOg</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">PORTFOLIO</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">PROJET LE WAGON</a>
+    </li>
+
+  </ul>
+
+    <div class="cards">
+      <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/breakfast.jpg)">
+        Portofolio
+      </div>
+
+      <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/lunch.jpg)">
+       Spactrip
+      </div>
+
+      <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('<%= image_path "Projet1.jpg" %>')">
+        Surelytics
+      </div>
+  </div>
+</div>
 </section>
+
+
+<!-- -----------END------------------------- -->
+
+
+<!-- ------------Services--------------------- -->
+
+<section id="Services" class="module">
+
+  <div class="container">
+    <div class="module-header">
+      <h2 class="module-title">
+      <span>SAVOIR ÊTRE</span>
+      SERVICES</h2>
+    </div>
+  </div>
+  <div class="module-line"></div>
+</section>
+
+<!-- -----------END------------------------- -->
+
+<!-- ------------Compétences--------------------- -->
+
+<section id="Compétences" class="module">
+
+  <div class="container">
+    <div class="module-header">
+      <h2 class="module-title">
+      <span>SAVOIR FAIRE</span>
+      COMPÉTENCES</h2>
+    </div>
+  </div>
+  <div class="module-line"></div>
+</section>
+
+<!-- -----------END------------------------- -->
+
+<!-- ------------Parcours--------------------- -->
+
+<section id="Parcours" class="module">
+
+  <div class="container">
+    <div class="module-header">
+      <h2 class="module-title">
+      <span>FORMATION</span>
+      PARCOURS</h2>
+    </div>
+  </div>
+  <div class="module-line"></div>
+</section>
+
+<!-- -----------END------------------------- -->
+
+
+<!-- ------------Contact--------------------- -->
+
+<section id="Contact" class="module">
+
+  <div class="container">
+    <div class="module-header">
+      <h2 class="module-title">
+      <span>CONTACTER</span>
+      DEMARRONS UN PROJET ENSEMBLE , N'HESITEZ PAS À ME CONTACTER</h2>
+    </div>
+  </div>
+  <div class="module-line"></div>
+</section>
+
+<!-- -----------END------------------------- -->
+
 

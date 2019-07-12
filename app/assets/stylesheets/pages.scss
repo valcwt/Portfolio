@@ -51,6 +51,7 @@ body{
   justify-content: space-between;
   background:white;
   color:black;
+      list-style-type: none;
 }
 
 .navbar-lewagon .navbar-collapse {
@@ -108,14 +109,19 @@ background: #666;
 
 
 
+
     text-align: center;
 
 }
 
 .module{
-padding: 41px 0 100px;
+padding: 41px 0 0;
+margin-top: 258px;
+
+.FIRST{
 
 
+}
 
 }
 
@@ -124,9 +130,19 @@ padding: 41px 0 100px;
 }
 
 .text{
-  margin-top: 52PX;
+  margin-top: 52px;
 }
 
 
+.head {
+margin-top: 160px;
 
+}
 
+.nav-link{
+      color: #751101;
+
+    font-size: 17px;
+    font-weight: bold;
+
+}
