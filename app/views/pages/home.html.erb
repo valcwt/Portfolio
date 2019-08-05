@@ -1,37 +1,38 @@
 
 <!-- ----------------NAVBAR------------------- -->
-
-<div class="nav">
   <div class="navbar fixed-top navbar-expand-sm navbar-light navbar-lewagon">
 
-    <%= link_to "#", class: "navbar-brand" do %>
-     <%= image_tag "vc.jpg",  :class => "style_image"%>
-     <% end %>
+        <%= link_to "#", class: "navbar-brand" do %>
+        <%= image_tag "MYLOGOtw.png",  :class => "style_image"%>
+        <% end %>
 
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-      <div class="container d-flex">
-        <div class="collapse navbar-collapse " id="navbarSupportedContent">
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
+             <li class="nav-item active">
               <%= link_to "Home", "#", class: "nav-link" %>
             </li>
             <li class="nav-item">
-              <%= link_to "Présentation", "#", class: "nav-link" %>
+              <%= link_to "Présentation", "#presentation", class: "nav-link" %>
             </li>
              <li class="nav-item">
-              <%= link_to "Réalisations", "#", class: "nav-link" %>
-            </li>
-             <li class="nav-item">
-              <%= link_to "Compétences", "#", class: "nav-link" %>
-            </li>
-             <li class="nav-item">
-              <%= link_to "Parcours", "#", class: "nav-link" %>
+              <%= link_to "Réalisations", "#realisation", class: "nav-link" %>
             </li>
             <li class="nav-item">
-              <%= link_to "Contact", "#", class: "nav-link" %>
+              <%= link_to "Services", "#Services", class: "nav-link" %>
+            </li>
+             <li class="nav-item">
+              <%= link_to "Compétences", "#Compétences", class: "nav-link" %>
+            </li>
+             <li class="nav-item">
+              <%= link_to "Parcours", "#Parcours", class: "nav-link" %>
+            </li>
+            <li class="nav-item">
+              <%= link_to "Contact", "#Contact", class: "nav-link" %>
                </li>
                <li class="nav-item">
               <%= link_to "Mon cv", "#", class: "nav-link" %>
@@ -39,248 +40,248 @@
 
               </div>
             </li>
-
           </ul>
-
         </div>
-
       </div>
-    </div>
-  </div>
-</div>
-<!-- --------------END------------------------ -->
 
-<!-- -------------------------------------- -->
-<!-- If you don't see it u probably are using a browser not based on webkit, so leave IE and grab anything else (Y) -->
-<!-- UPDATE: works in Chrome & Safari, not Firefox. To solve that you could use an SVG insted of pure text. -->
+
+<!-- --------------END------------------------ -->
 
 <!-- --------HEAD------------------------ -->
 
 <div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url('<%= image_path "office.jpg" %>');">
 
    <div class="container head">
- <div class="subtitle"><h2>Valentin CAUWET</h2> </div>
+      <div class="subtitle"><h2>Valentin CAUWET</h2>
+      </div>
+
+      <div class="title">
+        Développeur Web
+      </div>
+       <div class="subtitle">Full-stack || Ruby on rails
+       </div>
+      </div>
     </div>
-       <div class="title">
-
-        Développeur Web</div>
-       <div class="subtitle">Full-stack || Ruby on rails </div>
-    </div>
-    </div>
-
-
-   <!--  <div class="container head">
-       <div class="title">
-        Développeur Web</div>
-       <div class="subtitle">Full-stack || Ruby on rails </div>
-    </div> -->
-
+</div>
 
 <!-- -----------END------------------------- -->
 
 <!-- ------------Presentation--------------------- -->
-
-<section id="presentation" class="module">
-   <div class="module-line"></div>
-
-  <div class="container">
-    <div class="module-header">
-      <h2 class="module-title">
-      <span>Qui suis-je?</span>
-      PRÉSENTATION</h2>
-    </div>
-  </div>
-  <div class="module-line"></div>
-</section>
+<div class="background-color1">
+  <section id="presentation" class="module">
 
 
-<div class="container FIRST  ">
+        <div class="container">
+          <div class="module-line"></div>
+          <div class="module-header">
+           <h2 class="module-title">
+              <span>QUI SUIS-JE?</span>
+              PRÉSENTATION</h2>
+            </div>
+        </div>
 
-  <div class="row">.
-    <div class="presentation">
-      <div class="col-sm-4">
 
-       <%= image_tag "photoval.png",  :class => "images"%>
-    </div>
 
-     <p class="lead">
+        <div class="container">
 
-<div class="col-sm-8 text">
-      <strong>Autodidacte</strong> durant plus d’un an dans l’e-commerce, j’ai appris à mettre en place et à gérer un site sous PRESTASHOP.
 
-      Suite à cette expérience, j’ai souhaité m’orienter plus profondément dans le monde de la tech.
-       C'est pourquoi j'ai décidé de faire la formation du Wagon et de devenir <strong>développeur web freelance</strong> afin de pouvoir aider les gens à donner vie à leurs projets.
 
-    <br>
-       <strong>Le code est devenu aujourd'hui une passion.</strong>
-     </p>
 
-  </div>
-    </div>
-</div>
+              <div class="row">.
+                <div class="col-12 ">
+                  <%= image_tag "photoval.png",  :class => "images"%>
+                </div>
+
+
+
+
+
+
+
+                  <div class="col-12 text">
+
+                      <p>
+
+                       <strong>Passionné par l'informatique et les nouvelles technologies</strong>, j'ai commmencé à apprendre le développement de sites Web en autodictate sous Prestashop et shopify. <br> ( gestion et mise en place de sites e-commerce)
+
+                      Suite à cette expérience, j’ai souhaité m’orienter plus profondément dans le monde de la tech et d'en faire mon métier. Dans un premier en autodidacte, j'ai étudié les languages HTML et CSS, <br>
+                      puis j'ai décidé de me professionaliser en suivant la formation du Wagon et de devenir <strong>développeur web freelance</strong> afin de pouvoir aider les gens à donner vie à leurs projets.
+
+                      <br>
+                       <strong> <h6>Le code est devenu aujourd'hui une passion.</h6></strong>
+                       </p>
+                </div>
+               </div>
+
+
+  </section>
 </div>
 
 <!-- -----------END------------------------- -->
 
 
 <!-- ------------Réalisation--------------------- -->
-<div class="background-color1">
 
 
-  <section id="realisation" class="module">
-    <div class="module-line"></div>
-
-    <div class="container">
-      <div class="module-header">
-        <h2 class="module-title">
-        <span>PORTFOLIO</span>
-        RÉALISATIONS</h2>
-      </div>
-    </div>
-    <div class="module-line"></div>
-    <nav class="slidemenu">
-
-  <!-- Item 1 -->
-  <input type="radio" name="slideItem" id="slide-item-1" class="slide-toggle" checked/>
-  <label for="slide-item-1"><p class="icon">♬</p><span>Home</span></label>
-
-  <!-- Item 2 -->
-  <input type="radio" name="slideItem" id="slide-item-2" class="slide-toggle"/>
-  <label for="slide-item-2"><p class="icon">★</p><span>About</span></label>
-
-  <!-- Item 3 -->
-  <input type="radio" name="slideItem" id="slide-item-3" class="slide-toggle"/>
-  <label for="slide-item-3"><p class="icon">✈</p><span>Folio</span></label>
-
-  <!-- Item 4 -->
-  <input type="radio" name="slideItem" id="slide-item-4" class="slide-toggle"/>
-  <label for="slide-item-4"><p class="icon">✎</p><span>Blog</span></label>
-
-  <div class="clear"></div>
-
-  <!-- Bar -->
-  <div class="slider">
-    <div class="bar"></div>
-  </div>
-
-  </nav>
-
-   </section>
- </div>
+<!-- <div class="container A5"> -->
+  <section id="realisation" class="module-two">
 
 
-<!-- <section class="cards-realisation "> -->
-  <div class="cards">
-
-    <div class="card">
-        <div class="image">
-          <%= image_tag "VALPORT.png"%>
-        </div>
-        <div class="details">
-          <div class="center">
-            <h1>Portfolio<br><span>Valentin cauwet</span></h1>
-            <p>Portefolio réalisé part mes soins.</p>
+          <div class="container">
             <div class="module-line"></div>
-            <h6><span>Caractéristiques</span></h6>
-              <p>HTML
-              CSS (Boostrap, Flexbox)
-              Ruby on rails
-              Clevercloud</p>
-
-
-
-
-
+              <div class="module-header">
+                <h2 class="module-title">
+                <span>PORTFOLIO</span>
+                RÉALISATIONS</h2>
+              </div>
           </div>
-        </div>
-      </div>
+
+
+      </nav>
 
 
 
-    <div class="card">
-        <div class="image">
+ </section>
 
-          <%= image_tag "s.png"%>
+      <section class="cards-realisation ">
+        <div class="cards">
 
-        </div>
-                  <div class="details">
-                    <div class="center">
-                      <%= link_to "#", class: "navbar-brand" do %>
-                      <h1>SURELYTICS<br>
-                        <span>Projet Le Wagon</span></h1>
-                        <% end %>
-                      <p> <strong>Surelytics </strong> : un outil permettant aux utilisateurs de <i>Google Analytics </i> de contrôler la qualité de leurs<strong>données</strong> et de leurs <strong>tests</strong>.
-                     <div class="module-line"></div>
-                      <h6><span>Caractéristiques</span></h6>
-                      <p>HTML
-                      CSS (Boostrap, Flexbox)
-                      Ruby on rails </p>
+            <div class="card">
+              <div class="image">
+                <%= image_tag "VALPORT.png"%>
+              </div>
+              <div class="details">
+                <div class="center">
+                  <h1>Portfolio<br><span>Valentin cauwet</span></h1>
 
 
+                      <br>
+                      <br>
+                      <br>
+                      <br>
+                      <br>
+                  <img  class="arrow" src="https://img.icons8.com/doodle/48/000000/spinner-arrow.png">
+                  <!-- <div class="module-line"></div> -->
+                  <!-- <h6><span> <strong>Caractéristiques</strong></span></h6> -->
+                    <p><img  src="https://img.icons8.com/color/35/000000/html-5.png">
+                      <img src="https://img.icons8.com/color/35/000000/css3.png">
+                      <img src="https://img.icons8.com/color/35/000000/javascript.png">
+                      <img src="https://img.icons8.com/color/35/000000/ruby-programming-language.png">
+                      <img src="https://img.icons8.com/color/35/000000/postgreesql.png">
+                      <img  src="https://img.icons8.com/color/35/000000/bootstrap.png">
+                      <i>(Flexbox & Grid)</i>
 
-                  </div>
+                      <%= image_tag "clevercloud.png",  :class => "style_image clever" %>
+                      <%= image_tag "GA.png",  :class => "style_image GA" %>
+                      <%= image_tag "gtm.png",  :class => "style_image GA" %>
+                      <br>
+                    </p>
                 </div>
               </div>
-              <div class="card">
-        <div class="image">
+            </div>
 
-          <%= image_tag "s.png"%>
-
-        </div>
-                  <div class="details">
-                    <div class="center">
-                      <%= link_to "#", class: "navbar-brand" do %>
-                      <h1>SURELYTICS<br>
-                        <span>Projet Le Wagon</span></h1>
-                        <% end %>
-                      <p> <strong>Surelytics </strong> : un outil permettant aux utilisateurs de <i>Google Analytics </i> de contrôler la qualité de leurs<strong>données</strong> et de leurs <strong>tests</strong>.
-                     <div class="module-line"></div>
-                      <h6><span>Caractéristiques</span></h6>
-                      <p>HTML
-                      CSS (Boostrap, Flexbox)
-                      Ruby on rails </p>
+            <div class="card">
+                    <div class="image">
+                     <a href="https://www.surelytics.tech/"> <%= image_tag "surelyticsP.png"%></a>
+                    </div>
+                    <div class="details">
+                      <div class="center">
+                        <h1>Surelytics<br>
+                         </h1>
+                          <span>Projet le wagon</span>
 
 
+                        <h6><span><p> <strong>Surelytics </strong> : un outil permettant aux utilisateurs de <i>Google Analytics </i> de contrôler la qualité de leurs<strong> données</strong> et de leurs <strong>tests</strong>.</span></h6>
+                          <img  class="arrow" src="https://img.icons8.com/doodle/48/000000/spinner-arrow.png">
+                        <!--   <div class="module-line"></div>
+                          <h6><span>Caractéristiques</span></h6> -->
+                            <p><img  src="https://img.icons8.com/color/35/000000/html-5.png">
+                            <img src="https://img.icons8.com/color/35/000000/css3.png">
+                            <img src="https://img.icons8.com/color/35/000000/javascript.png">
+                            <img src="https://img.icons8.com/color/35/000000/ruby-programming-language.png">
+                            <img src="https://img.icons8.com/color/35/000000/postgreesql.png">
+                            <img  src="https://img.icons8.com/color/35/000000/bootstrap.png">
+                            <i>(Flexbox & Grid)</i>
+                            <br>
+                            <%= image_tag "clevercloud.png",  :class => "style_image clever" %>
+                            <%= image_tag "GA.png",  :class => "style_image GA" %>
+                            <%= image_tag "gtm.png",  :class => "style_image GA" %>
+                            </p>
 
+
+                      </div>
+                    </div>
                   </div>
+
+
+
+            <div class="card">
+              <div class="image">
+                <%= image_tag "yourprojet.png"%>
+              </div>
+              <div class="details">
+                <div class="center">
+                  <h1>Votre projet<br><span></span></h1>
+                  <p>Je serais ravi de notre collaboration et  de vous compter parmis mes realisations.</p>
+                  <img  class="arrow" src="https://img.icons8.com/doodle/48/000000/spinner-arrow.png">
+                  <!-- <div class="module-line"></div>
+                  <h6><span>Caractéristiques</span></h6> -->
+
+                    <p> <img  src="https://img.icons8.com/color/35/000000/html-5.png">
+                        <img src="https://img.icons8.com/color/35/000000/css3.png">
+                        <img src="https://img.icons8.com/color/35/000000/javascript.png">
+                        <img src="https://img.icons8.com/color/35/000000/ruby-programming-language.png">
+                        <img src="https://img.icons8.com/color/35/000000/postgreesql.png">
+                        <img  src="https://img.icons8.com/color/35/000000/bootstrap.png">
+                        <i>(Flexbox & Grid)</i>
+                        <br>
+                        <%= image_tag "GA.png",  :class => "style_image GA" %>
+
+
+                        <strong>etc..</strong>
+                    </p>
                 </div>
               </div>
-      </div>
-      </div>
-    </div>
+            </div>
+
+
+
 
   </div>
+                    </div>
+            </div>
+            </div>
+          </div>
+
+        </div>
 </section>
+    <!-- </div> -->
 <!-- -----------END------------------------- -->
 
 
 <!-- ------------Services--------------------- -->
 
-<section id="Services" class="module">
-
-   <div class="module-line"></div>
-
-  <div class="container">
-    <div class="module-header">
-      <h2 class="module-title">
-      <span>SAVOIR ÊTRE</span>
-      SERVICES</h2>
-    </div>
-
-    <div class="module-line"></div>
-
-
+    <div class="background-color1">
+      <section id="Services" class="module">
+        <div class="container">
+          <div class="module-line"></div>
+          <div class="module-header">
+            <h2 class="module-title">
+            <span>SAVOIR ÊTRE</span>
+            SERVICES</h2>
+          </div>
+    </section>
     <!-- <div class="container "> -->
-  </section>
+
 
  <div class="wrapper">
   <div class="cols">
-      <div class="col" ontouchstart="this.classList.toggle('hover');">
+      <div class="col-12" ontouchstart="this.classList.toggle('hover');">
         <div class="container">
           <div class="front" style="background-image: url(https://unsplash.it/500/500/)">
             <div class="inner">
-              <p>Responsive</p>
-              <span>WEB DESIGN</span>
+              <p>Multi-plateforme</p>
+              <span><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4Igp3aWR0aD0iNTAiIGhlaWdodD0iNTAiCnZpZXdCb3g9IjAgMCAxNzIgMTcyIgpzdHlsZT0iIGZpbGw6IzAwMDAwMDsiPjxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0ibm9uemVybyIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiIHN0cm9rZS1saW5lY2FwPSJidXR0IiBzdHJva2UtbGluZWpvaW49Im1pdGVyIiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiIHN0cm9rZS1kYXNoYXJyYXk9IiIgc3Ryb2tlLWRhc2hvZmZzZXQ9IjAiIGZvbnQtZmFtaWx5PSJub25lIiBmb250LXdlaWdodD0ibm9uZSIgZm9udC1zaXplPSJub25lIiB0ZXh0LWFuY2hvcj0ibm9uZSIgc3R5bGU9Im1peC1ibGVuZC1tb2RlOiBub3JtYWwiPjxwYXRoIGQ9Ik0wLDE3MnYtMTcyaDE3MnYxNzJ6IiBmaWxsPSJub25lIj48L3BhdGg+PGcgZmlsbD0iI2ZmZmZmZiI+PGcgaWQ9InN1cmZhY2UxIj48cGF0aCBkPSJNMTcuMiwxNy4yYy01LjY1NzE5LDAgLTEwLjMyLDQuNjYyODEgLTEwLjMyLDEwLjMydjk2LjMyYzAsNS42NTcxOSA0LjY2MjgxLDEwLjMyIDEwLjMyLDEwLjMyaDEzNy42YzUuNjU3MTksMCAxMC4zMiwtNC42NjI4MSAxMC4zMiwtMTAuMzJ2LTk2LjMyYzAsLTUuNjU3MTkgLTQuNjYyODEsLTEwLjMyIC0xMC4zMiwtMTAuMzJ6TTE3LjIsMjQuMDhoMTM3LjZjMS45NDg0NCwwIDMuNDQsMS40OTE1NiAzLjQ0LDMuNDR2OTYuMzJjMCwxLjk0ODQ0IC0xLjQ5MTU2LDMuNDQgLTMuNDQsMy40NGgtMTM3LjZjLTEuOTQ4NDQsMCAtMy40NCwtMS40OTE1NiAtMy40NCwtMy40NHYtOTYuMzJjMCwtMS45NDg0NCAxLjQ5MTU2LC0zLjQ0IDMuNDQsLTMuNDR6TTMwLjk2LDQ0LjcyYy0zLjc4OTM3LDAgLTYuODgsMy4wOTA2MyAtNi44OCw2Ljg4djQ0LjcyYzAsMy43ODkzOCAzLjA5MDYzLDYuODggNi44OCw2Ljg4aDIwLjY0YzMuNzg5MzgsMCA2Ljg4LC0zLjA5MDYyIDYuODgsLTYuODh2LTQ0LjcyYzAsLTMuNzg5MzcgLTMuMDkwNjIsLTYuODggLTYuODgsLTYuODh6TTc5LjEyLDQ0LjcyYy0zLjc4OTM3LDAgLTYuODgsMy4wOTA2MyAtNi44OCw2Ljg4djQ0LjcyYzAsMy43ODkzOCAzLjA5MDYzLDYuODggNi44OCw2Ljg4aDYxLjkyYzMuNzg5MzgsMCA2Ljg4LC0zLjA5MDYyIDYuODgsLTYuODh2LTQ0LjcyYzAsLTMuNzg5MzcgLTMuMDkwNjIsLTYuODggLTYuODgsLTYuODh6TTQxLjI4LDg2YzEuODk0NjksMCAzLjQ0LDEuNTQ1MzEgMy40NCwzLjQ0YzAsMS44OTQ2OSAtMS41NDUzMSwzLjQ0IC0zLjQ0LDMuNDRjLTEuODk0NjksMCAtMy40NCwtMS41NDUzMSAtMy40NCwtMy40NGMwLC0xLjg5NDY5IDEuNTQ1MzEsLTMuNDQgMy40NCwtMy40NHpNMTEwLjA4LDg2YzEuODk0NjksMCAzLjQ0LDEuNTQ1MzEgMy40NCwzLjQ0YzAsMS44OTQ2OSAtMS41NDUzMSwzLjQ0IC0zLjQ0LDMuNDRjLTEuODk0NjksMCAtMy40NCwtMS41NDUzMSAtMy40NCwtMy40NGMwLC0xLjg5NDY5IDEuNTQ1MzEsLTMuNDQgMy40NCwtMy40NHpNODYsMTE2Ljk2Yy0xLjg5NDY5LDAgLTMuNDQsMS41NDUzMSAtMy40NCwzLjQ0YzAsMS44OTQ2OSAxLjU0NTMxLDMuNDQgMy40NCwzLjQ0YzEuODk0NjksMCAzLjQ0LC0xLjU0NTMxIDMuNDQsLTMuNDRjMCwtMS44OTQ2OSAtMS41NDUzMSwtMy40NCAtMy40NCwtMy40NHpNNjguOCwxMzcuNnYxMC4zMmgtNi44OGMtNS42ODQwNiwwIC0xMC4zMiw0LjYzNTk0IC0xMC4zMiwxMC4zMnYzLjQ0aDY4Ljh2LTMuNDRjMCwtNS42ODQwNiAtNC42MzU5NCwtMTAuMzIgLTEwLjMyLC0xMC4zMmgtNi44OHYtMTAuMzJ6Ij48L3BhdGg+PC9nPjwvZz48L2c+PC9zdmc+"></span>
             </div>
           </div>
           <div class="back">
@@ -291,235 +292,217 @@
           </div>
         </div>
       </div>
-      <div class="col" ontouchstart="this.classList.toggle('hover');">
+      <div class="col-12" ontouchstart="this.classList.toggle('hover');">
         <div class="container">
-          <div class="front" style="background-image: url('<%= image_path "responsive.jpg" %>')">
+          <div class="front" style="background-image: url(https://unsplash.it/504/504/)">
             <div class="inner">
-              <p>S.E.O</p>
-              <span>Référencement</span>
+              <p>Accompagnement</p>
+              <span><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4Igp3aWR0aD0iNTAiIGhlaWdodD0iNTAiCnZpZXdCb3g9IjAgMCAxNzIgMTcyIgpzdHlsZT0iIGZpbGw6IzAwMDAwMDsiPjxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0ibm9uemVybyIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiIHN0cm9rZS1saW5lY2FwPSJidXR0IiBzdHJva2UtbGluZWpvaW49Im1pdGVyIiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiIHN0cm9rZS1kYXNoYXJyYXk9IiIgc3Ryb2tlLWRhc2hvZmZzZXQ9IjAiIGZvbnQtZmFtaWx5PSJub25lIiBmb250LXdlaWdodD0ibm9uZSIgZm9udC1zaXplPSJub25lIiB0ZXh0LWFuY2hvcj0ibm9uZSIgc3R5bGU9Im1peC1ibGVuZC1tb2RlOiBub3JtYWwiPjxwYXRoIGQ9Ik0wLDE3MnYtMTcyaDE3MnYxNzJ6IiBmaWxsPSJub25lIj48L3BhdGg+PGcgZmlsbD0iI2ZmZmZmZiI+PHBhdGggZD0iTTYxLjkyLDYuODhjLTI3Ljc2MDgsMCAtMzcuODQsMTguODIxNzUgLTM3Ljg0LDMxLjQ3MDYzYzAsMTkuOTkzMjggMTkuMDM2OTYsMzAuNDQ5MzcgMzcuODQsMzAuNDQ5MzdjMTguMzQ1NTIsMCAzNy44NCwtMTAuODk0NyAzNy44NCwtMzEuMDk0MzdjMCwtMTcuODU3MDQgLTE1LjkxMzQ0LC0zMC44MjU2MyAtMzcuODQsLTMwLjgyNTYzek0xMDMuMiwxNy4yYy0xLjA0OTIsMCAtMi4wNzkxMSwwLjAzOTAyIC0zLjA5NzM1LDAuMDk0MDZjNC4xNTg5Niw1Ljc3OTIgNi41MzczNSwxMi43MTI4NCA2LjUzNzM1LDIwLjQxMTU2YzAsMTcuOTQ5OTIgLTEyLjIxNTgxLDI5Ljg0NzggLTI3LjIxNzY1LDM1LjAxODEyYzcuNDkyMzIsNC41NjgzMiAxNi41MTkyNSw2LjM5NjI1IDIzLjc3NzY1LDYuMzk2MjVjMTguMzQ1NTIsMCAzNy44NCwtMTAuODk0NyAzNy44NCwtMzEuMDk0MzdjMCwtMTcuODU3MDQgLTE1LjkxMzQ0LC0zMC44MjU2MyAtMzcuODQsLTMwLjgyNTYzek0xOC45Miw2MS45MmMtNi42MzkyLDAgLTEyLjA0LDQuNjMwMjQgLTEyLjA0LDEwLjMyYzAsNS42ODk3NiA1LjQwMDgsMTAuMzIgMTIuMDQsMTAuMzJjNi42MzkyLDAgMTIuMDQsLTQuNjMwMjQgMTIuMDQsLTEwLjMyYzAsLTUuNjg5NzYgLTUuNDAwOCwtMTAuMzIgLTEyLjA0LC0xMC4zMnpNMTUzLjA4LDYxLjkyYy02LjYzOTIsMCAtMTIuMDQsNC42MzAyNCAtMTIuMDQsMTAuMzJjMCw1LjY4OTc2IDUuNDAwOCwxMC4zMiAxMi4wNCwxMC4zMmM2LjYzOTIsMCAxMi4wNCwtNC42MzAyNCAxMi4wNCwtMTAuMzJjMCwtNS42ODk3NiAtNS40MDA4LC0xMC4zMiAtMTIuMDQsLTEwLjMyek00OS45ODc1LDgyLjU2Yy0xNy44MzI5NiwwIC0yMi40Njc1LDEwLjIyMDI0IC0yMi40Njc1LDE5Ljc4YzAsMi4zMjU0NCAwLjc3MzAzLDUuNjMxOTIgMS4zMzAzMSw3LjcxMzEzYy0wLjcyNTg0LDEuMTQyMDggLTEuMzMwMzEsMi44MTMyNyAtMS4zMzAzMSw1LjE4Njg3YzAsNC41NjgzMiAxLjk1OTAzLDcuMDE3MzggNC4zNzM5MSw4LjAzNTYzYzAuODI5MDQsMy4wMzA2NCAyLjQ3ODc0LDYuMTgzMTMgNC4yMTkzOCw4LjEwOTUzdjUuNDYyMzVjLTEuMTUyNCwxLjk4NDg4IC00LjU3MTYsMy40Mzc3OSAtOC4xNzY3Miw0Ljk2NTE1Yy03LjExMDQ4LDMuMDEgLTE2LjgzOTI4LDcuMTMwNTggLTE3LjYwOTg0LDE5LjY1OTA2Yy0wLjA1ODQ4LDAuOTQ2IDAuMjc3MDMsMS44NzUxMiAwLjkyNzE5LDIuNTY2NTZjMC42NTAxNiwwLjY4OCAxLjU1NjY1LDEuMDgxNzIgMi41MDYwOSwxLjA4MTcyaDY2LjIyaDIuNThoNi44OGgyLjU4aDY2LjIyYzAuOTQ5NDQsMCAxLjg1OTM4LC0wLjM5MDI4IDIuNTA2MSwtMS4wODE3MmMwLjY1MDE2LC0wLjY5MTQ0IDAuOTg1NjcsLTEuNjI3MjggMC45MjcxOSwtMi41NzMyOGMtMC43NzQsLTEyLjU5Mzg0IC0xMS44MjM5OCwtMTYuNjg5ODYgLTE5Ljg5NDIyLC0xOS42NzkyMmMtMy45OTM4NCwtMS40ODI2NCAtOC4xMTc4NiwtMy4wMTgxMSAtOS4zMzkwNiwtNC45NjUxNXYtNS40MzU0N2MxLjc0MDY0LC0xLjkyNjQgMy4zODY5LC01LjA3NTQ1IDQuMjE5MzcsLTguMTA5NTNjMi40MTgzMiwtMS4wMTEzNiA0LjM4MDYzLC0zLjQ2Mzg3IDQuMzgwNjMsLTguMDM1NjNjMCwtMi4zNzM2IC0wLjYwNDQ3LC00LjA0NDggLTEuMzMwMzEsLTUuMTg2ODdjMC41NTcyOCwtMi4wODEyIDEuMzMwMzEsLTUuMzg3NjkgMS4zMzAzMSwtNy43MTMxM2MwLC03LjMzNzUyIC0yLjM2NzI2LC0xNS4xOTM3OCAtMTEuMzAwOTQsLTE2LjIyNTc4bC0xLjExNTMxLC0xLjg3NDUzYy0wLjYxOTIsLTEuMDQyMzIgLTEuNzQxOTMsLTEuNjc5NjkgLTIuOTU2MjUsLTEuNjc5NjljLTE3LjgzMjk2LDAgLTIyLjQ2NzUsMTAuMjIwMjQgLTIyLjQ2NzUsMTkuNzhjMCwyLjMyNTQ0IDAuNzczMDMsNS42MzE5MiAxLjMzMDMxLDcuNzEzMTNjLTAuNzI1ODQsMS4xNDIwOCAtMS4zMzAzMSwyLjgxMzI3IC0xLjMzMDMxLDUuMTg2ODdjMCw0LjU2ODMyIDEuOTU5MDIsNy4wMTczOCA0LjM3MzksOC4wMzU2M2MwLjgyOTA0LDMuMDMwNjQgMi40Nzg3NCw2LjE4MzEzIDQuMjE5MzgsOC4xMDk1M3Y1LjQ2MjM1Yy0xLjE1MjQsMS45ODQ4OCAtNC41NzE2LDMuNDM3NzkgLTguMTc2NzIsNC45NjUxNWMtNy4xMTA0OCwzLjAxIC0xNi44MzkyOSw3LjEzMDU4IC0xNy42MDk4NSwxOS42NTkwNmMtMC4wMDQ0MSwwLjA3MTQgMC4wMjY4MiwwLjEzNzEzIDAuMDI2ODgsMC4yMDgyOGgtMC4wNzM5MWMwLjAwMDIsLTAuMDczMzEgMC4wMzgxNCwtMC4xNDE0MSAwLjAzMzYsLTAuMjE1Yy0wLjc3NCwtMTIuNTkzODQgLTExLjgyMzk4LC0xNi42ODk4NiAtMTkuODk0MjIsLTE5LjY3OTIyYy0zLjk5Mzg0LC0xLjQ4MjY0IC04LjExNzg2LC0zLjAxODExIC05LjMzOTA2LC00Ljk2NTE1di01LjQzNTQ3YzEuNzQwNjQsLTEuOTI2NCAzLjM4Njg5LC01LjA3NTQ1IDQuMjE5MzcsLTguMTA5NTNjMi40MTgzMiwtMS4wMTEzNiA0LjM4MDYzLC0zLjQ2Mzg3IDQuMzgwNjMsLTguMDM1NjNjMCwtMi4zNzM2IC0wLjYwNDQ3LC00LjA0NDggLTEuMzMwMzEsLTUuMTg2ODdjMC41NTcyOCwtMi4wODEyIDEuMzMwMzEsLTUuMzg3NjkgMS4zMzAzMSwtNy43MTMxM2MwLC03LjMzNzUyIC0yLjM2NzI2LC0xNS4xOTM3OCAtMTEuMzAwOTQsLTE2LjIyNTc4bC0xLjExNTMxLC0xLjg3NDUzYy0wLjYxOTIsLTEuMDQyMzIgLTEuNzQxOTMsLTEuNjc5NjkgLTIuOTU2MjUsLTEuNjc5Njl6TTEyLjA0LDg5LjQ0Yy0yLjg0OTc5LDAgLTUuMTYsMi4zMTAyMSAtNS4xNiw1LjE2YzAsMi44NDk3OSAyLjMxMDIxLDUuMTYgNS4xNiw1LjE2YzIuODQ5NzksMCA1LjE2LC0yLjMxMDIxIDUuMTYsLTUuMTZjMCwtMi44NDk3OSAtMi4zMTAyMSwtNS4xNiAtNS4xNiwtNS4xNnpNMTU5Ljk2LDg5LjQ0Yy0yLjg0OTc5LDAgLTUuMTYsMi4zMTAyMSAtNS4xNiw1LjE2YzAsMi44NDk3OSAyLjMxMDIxLDUuMTYgNS4xNiw1LjE2YzIuODQ5NzksMCA1LjE2LC0yLjMxMDIxIDUuMTYsLTUuMTZjMCwtMi44NDk3OSAtMi4zMTAyMSwtNS4xNiAtNS4xNiwtNS4xNnoiPjwvcGF0aD48L2c+PC9nPjwvc3ZnPg=="></span>
             </div>
           </div>
           <div class="back">
             <div class="inner">
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias cum repellat velit quae suscipit c.</p>
+              <p>Je gère entièrement les projets en assurant une  <strong>communication constante</strong>.</p>
             </div>
           </div>
         </div>
       </div>
-      <div class="col" ontouchstart="this.classList.toggle('hover');">
+      <div class="col-12" ontouchstart="this.classList.toggle('hover');">
         <div class="container">
-          <div class="front" style="background-image: url(https://unsplash.it/502/502/)">
+          <div class="front" style="background-image: url(https://unsplash.it/505/505/)">
             <div class="inner">
-              <p>Strizzes</p>
-              <span>Lorem ipsum</span>
+              <p>Développement web</p>
+              <span><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAMAAAAp4XiDAAACHFBMVEVHcEz////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////TjTo+AAAAs3RSTlMAC/Sf/gbx1Cr9EQFY9/nztAlP7SZaCunGj79GNdx1LyRdaw/2DZLQYJ7761ksGSKzfcRqPS3jG2w0vtflUzNcnEwFlRpurwwu7KpKu9WUuFaXkAQw8iXKocXn5Pzux/Db5nAdMaICz9mg4lt/k4M/ljl2UbZtYkKFrXkXneAhw44jzFVF6rHAV90nS2kQONIymYnaFaZfywhQSBSYh3v6jM7YKNOoEivfuTeANmGrcj4cA0S8C4wAAAKSSURBVEjHtZX3V9tADMcNOAl2JiRsEgIEaBN2y6ZAmaVAmWXTvffee++99977+w/WcWzHOTt28vqqH+4knT5+J53uTFH/LKPffk5OzczNMnPTEz++9hXqAjeeOREhtsF8gxawMJsLMg1///Wb/WNmy78MPW+0AdNd7dGAwjYagR1XIp3XHzzkvpKnTrx9A9+LBJWFJ02w5qsRY0689qp/7FEH6AKlezyA7vSoSXbRzCLS1/MODq3KeGA/TbiKMVCkWf37uBjpaJl9uUT7wNjziNyaA6/0DtmDErlZA/tTPSQhAztl5iks02++bdgeNszNaFCGZK+ItGtQa5aMPNQqiQpkEB43ciW9HvOViAWVioPYL+nHsCC8kGa8ys9ZqOLGxcY0aeUA2iT9JA5KenIiUnklEzncmIrEZHEpFxNS2HFI55hgQhKvGKw0G5yTYBK7O52xnRDj7KgTVS4iXfhkEz+nlIQTncRhUfUjRdBKpX0UYHNIcS3HPGH1qJHfbFB8Ksh6sSQyhDqCgdGQtgVrFRvbhBbFxijDXQhXbSPWkemztNVAEenzBez9wCvd2EoWOQeZvPlYVuSg9Avd6MEu+VH2cWMVsnhLfpRB+ej3lwXn3TCR7VIJi3o/F+M9n5UT5EOVgQp1ZByfhH7qIFamqtWJskF8DuUM471YnviypQwCY+Ldvx0DwQG+kXLBcNmYW/oIMNIZtu6g2hwDIreKmtEaJ0LlY6Y9TsR8E0NxItQ1NOoQG8BEOorsdKc2Uo7VhMcRra1E2YtswrMHw9rIPqwhf8fCFYkmFvSyhMuLVVpEqTX8Bkj/cKxUCz17rsFb57rUDxzSL7voDYmzlYodOeO+7L5Q30PFgcTRD/8HiVn+AkbywNL0OdjgAAAAAElFTkSuQmCC"></span>
             </div>
           </div>
           <div class="back">
             <div class="inner">
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias cum repellat velit quae suscipit c.</p>
+              <p>Confection de site<strong> web </strong> | <strong>Application</strong>
+                sur-mesure repondant aux besoins des clients</p>
             </div>
           </div>
         </div>
       </div>
-      <div class="col" ontouchstart="this.classList.toggle('hover');">
-        <div class="container">
-          <div class="front" style="background-image: url(https://unsplash.it/503/503/)">
-            <div class="inner">
-              <p>Clossyo</p>
-              <span>Lorem ipsum</span>
-            </div>
-          </div>
-          <div class="back">
-            <div class="inner">
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias cum repellat velit quae suscipit c.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-</div>
-
-        <!-- vertical -->
-        <!-- <div class="flip flip-vertical ">
-          <div class="front" style="background-image: url('<%= image_path "responsive.jpg" %>')">
-               <h1 class="text-shadow centre">RESPONSIVE WEB DESIGN</hi>
-          </div>
-          <div class="back">
-            <br>
-          <h2>Multi-plateforme</h2>
-
-          <p>Le Responsive Web Design (RWD) ajuste automatiquement l’affichage d’une page web à la taille d’écran du terminal utilisé.
-          Compatible tous supports, <strong>tablette </strong> & <strong> application mobile</strong></p>
-          </div>
-        </div>
-        <div class="flip flip-vertical">
-          <div class="front" style="background-image: url('<%= image_path "responsive.jpg" %>')">
-            <h1 class="text-shadow centre">S.E.O</hi>
-            </div>
-            <div class="back">
-               <h2>Référencement</h2>
-               <p>GAmélioration de la visibilité d'un domaine. Optimisation des positions des pages web dans les résultats de recherche Google</p>
-            </div>
-        </div>
-        <div class="flip flip-vertical">
-            <div class="front" style="background-image: url('<%= image_path "responsive.jpg" %>')">
-               <h1 class="text-shadow">SWAMP</hi>
-            </div>
-            <div class="back">
-               <h2>Angular</h2>
-               <p>Good tools make application development quicker and easier to maintain than if you did everything by hand..</p>
-            </div>
-        </div>
 
       </div>
     </div>
-  </div> -->
-
-
+  </div>
 
 <!-- -----------END------------------------- -->
 
 <!-- ------------Compétences--------------------- -->
-<div class="background-color1">
-    <section id="Compétences" class="module">
-      <div class="module-line"></div>
-
-      <div class="container">
-        <div class="module-header">
-          <h2 class="module-title">
-          <span>SAVOIR FAIRE</span>
-          COMPÉTENCES</h2>
-          <div class="module-line"></div>
-            <div class="savoir-faire">
-              <div class="row">
-                <!-- <div class="col-sm-8"> -->
-
-
-                  <div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url('<%= image_path "web.jpg" %>');">
-
-   <div class="container head">
- <div class="subtitle"><h2>Valentin CAUWET</h2> </div>
-    </div>
+<!-- <div class="container A5"> -->
+  <section id="Compétences" class="module-two">
+    <div class="container">
 
 
 
-                </div>
-               </div>
+          <div class="container head">
+            <div class="module-line"></div>
+            <h2 class="module-title ba">
+              <span>SAVOIR FAIRE</span>
+              COMPÉTENCES</h2>
 
-
-              <div class="row">
-                <!-- <div class="col-sm-4"> -->
-                  <div class="percentage-bar">
-
-
-                        <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">HTML5 => 50% <!-- <p>HTML</p> --></div>
-                  </div>
-
-                        <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">HTML5 => 50% <!-- <p>HTML</p> --></div>
-                  </div>
-
-                        <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">HTML5 => 50% <!-- <p>HTML</p> --></div>
-                  </div>
-
-                        <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">HTML5 => 50% <!-- <p>HTML</p> --></div>
-                  </div>
-
-                        <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">HTML5 => 50% <!-- <p>HTML</p> --></div>
-                  </div>
-                <!--  </div> -->
+              <div class="subtitle">
               </div>
-            </div>
+
+          </div>
+
+
+    <div class="container">
+
+        <div class="row">
+          <div class="col">
+            <figure>
+              <div class='captures'></div>
+              <div class='captures'></div>
+              <div class='captures'></div>
+              <div class='captures'></div>
+              <div class='captures'></div>
+              <div class='captures'></div>
+              <div class='captures'></div>
+              <div class='captures'></div>
+              <figcapture></figcapture>
+            </figure>
+          </div>
+
+
+
+
+
+            <!-- <div class="percentage-bar"> -->
+
+               <div class="col">
+
+
+                <h5><strong>HTML5 <img  src="https://img.icons8.com/color/48/000000/html-5.png"> / CSS3</strong> <img src="https://img.icons8.com/color/48/000000/css3.png"></h5>
+
+                <div class="progress2 progress-moved">
+                <div class="progress-bar22">75%</div>
+                </div>
+              <!-- </div> -->
+
+
+              <!-- <div class="container"> -->
+                  <h5 class="competence">Javascript <img src="https://img.icons8.com/color/48/000000/javascript.png"> </h5>
+
+                  <div class="progress2 progress-moved">
+                  <div class="progress-bar222">45%</div>
+                  </div>
+             <!--  </div> -->
+
+              <!-- <div class="container"> -->
+                <h5 class="competence">Ruby on rails <img src="https://img.icons8.com/color/48/000000/ruby-programming-language.png"></h5>
+
+                <div class="progress2 progress-moved">
+                <div class="progress-bar2"><p> 55% </p></div>
+                </div>
+              <!-- </div> -->
+
+              <!-- <div class="container"> -->
+                <h5 class="competence">Boostrap <img  src="https://img.icons8.com/color/48/000000/bootstrap.png"></h5>
+
+                <div class="progress2 progress-moved">
+                <div class="progress-bar22">75%</div>
+                </div>
+              <!-- </div> -->
+
+              <!-- <div class="container"> -->
+                <h5 class="competence">Postgreesql <img src="https://img.icons8.com/color/48/000000/postgreesql.png"></h5>
+
+                <div class="progress2 progress-moved">
+                <div class="progress-bar2">50%</div>
+                </div>
+              <!-- </div> -->
+
+               <h5 class="competence">Clevercloud <%= image_tag "clevercloud.png",  :class => "style_image clever" %></h5>
+
+                <div class="progress2 progress-moved">
+                <div class="progress-bar2">50%</div>
+                </div>
+
+              <!-- <div class="container"> -->
+                <h5 class="competence">Prestashop <%= image_tag "presta.png",  :class => "style_image"%></h5>
+
+                <div class="progress2 progress-moved">
+                <div class="progress-bar22">75%</div>
+                </div>
+
+
+              </div>
+            <!-- </div> -->
+         </div>
         </div>
-     </div>
+      </div>
     </div>
 
-        <div class="module-line"></div>
-        </section>
-      </div>
+
+
+     </div>
+  </section>
+  </div>
+
 <!-- -----------END------------------------- -->
 
 <!-- ------------Parcours--------------------- -->
 
-<section id="Parcours" class="module">
-<div class="module-line"></div>
-  <div class="container">
-    <div class="module-header">
-      <h2 class="module-title">
-      <span>FORMATION</span>
-      PARCOURS</h2>
-    </div>
-  </div>
+<div class="background-color1">
+  <section id="Parcours" class="module formation">
 
-</section>
+      <div class="container head">
+          <div class="module-line"></div>
+            <div class="module-header">
+              <h2 class="module-title">
+              <span>FORMATION</span>
+              PARCOURS</h2>
+            </div>
+            </div>
+ <div class="container">
+          <div class="row">
+            <div class="col-12">
+                <div class="card" style="width: 18rem;">
+                 <%= image_tag "lewagon.png",  :class => "card-img-top" %>
+                  <div class="card-body">
+                    <h5 class="card-title lewagon">Concepteur développeur d'applications web</h5>
+                    <p class="lewagon"><span>Niveau 2 RNCP (Bac+ 3/ Bac+4)</span></p>
+                    <p class="card-text lewagon ">
+                  <strong>Le Wagon</strong> est une formation intensive au <strong>développement web</strong> de 9 semaines qui vous apprend à coder entièrement vos <strong>applications web</strong></p>
+                    <a href="https://www.lewagon.com/?locale=fr" class="btn btn-primary" target="blank">Learn to code</a>
+                  </div>
+                </div>
+             </div>
+          </div>
+
+
+
+      </div>
+    </div>
+  </section>
+</div>
 
 <!-- -----------END------------------------- -->
 
 
 <!-- ------------Contact--------------------- -->
-<div class="background-color1">
-
-<section id="Contact" class="module">
-  <div class="module-line"></div>
-
-  <div class="container">
-    <div class="module-header">
-      <h2 class="module-title">
-      <span>CONTACTER</span>
-      DEMARRONS UN PROJET ENSEMBLE , N'HESITEZ PAS À ME CONTACTER</h2>
-    </div>
-  </div>
-  <div class="module-line"></div>
-</section>
-</div>
-<!-- -----------END------------------------- -->
+<!-- <div class="background-color1"> -->
+<!-- <div class="container A5"> -->
+  <section id="Contact" class="module">
 
 
-<div id="container">
-  <h1>&bull; Keep in Touch &bull;</h1>
-  <div class="underline">
-  </div>
-  <div class="icon_wrapper">
-    <svg class="icon" viewBox="0 0 145.192 145.192">
-      <path d="M126.82,32.694c-2.804,0-5.08,2.273-5.08,5.075v2.721c-1.462,0-2.646,1.185-2.646,2.647v1.995    c0,1.585,1.286,2.873,2.874,2.873h20.577c1.462,0,2.646-1.185,2.646-2.647v-3.041c0-1.009-0.816-1.825-1.823-1.825v-2.722    c0-2.802-2.276-5.075-5.079-5.075h-1.985v-3.829c0-3.816-3.095-6.912-6.913-6.912h-0.589h-20.45c0-2.67-2.164-4.835-4.833-4.835    H56.843c-2.67,0-4.835,2.165-4.835,4.835H34.356v-3.384h-9.563v3.384v1.178h-7.061v1.416c-2.67,0.27-10.17,1.424-13.882,5.972    c-1.773,2.17-2.44,4.791-1.983,7.793c0.463,3.043,1.271,6.346,2.128,9.841c2.354,9.616,5.024,20.515,0.549,28.077    C2.647,79.44-3.125,90.589,2.201,99.547c4.123,6.935,13.701,10.44,28.5,10.44c1.186,0,2.405-0.023,3.658-0.068v9.028h-0.296    c-2.516,0-4.558,2.039-4.558,4.558v4.566h100.04v-4.564c0-2.519-2.039-4.558-4.558-4.558h-0.297V84.631h0.297    c2.519,0,4.558-2.037,4.558-4.556v-0.009c0-2.516-2.039-4.556-4.556-4.556l-36.786-0.009V61.973c0-2.193-1.777-3.971-3.972-3.971    v-4.711h0.456c1.629,0,2.952-1.32,2.952-2.949h14.227V34.459h1.658c2.672,0,4.834-2.165,4.834-4.834h20.45v3.069H126.82z     M34.06,75.511c-2.518,0-4.558,2.04-4.558,4.556v0.009c0,2.519,2.042,4.556,4.558,4.556h0.296v24.12l-0.042-1.168    c-15.994,0.574-26.122-2.523-30.106-9.229C-0.464,90.5,4.822,80.347,6.55,77.423c4.964-8.382,2.173-19.774-0.29-29.825    c-0.843-3.442-1.639-6.696-2.088-9.638c-0.354-2.35,0.129-4.3,1.484-5.958c3.029-3.714,9.509-4.805,12.076-5.1v1.233h7.061v1.49    v2.684c-2.403,1.114-4.153,2.997-4.676,5.237H18.15c-0.584,0-1.056,0.474-1.056,1.056v0.83c0,0.584,0.475,1.056,1.056,1.056h1.984    c0.561,2.18,2.304,3.999,4.658,5.092v0.029c0,0-2.282,20.823,16.479,22.099v1.102c0,1.177,0.955,2.133,2.133,2.133h3.297    c1.178,0,2.133-0.956,2.133-2.133V50.135c0-1.177-0.955-2.132-2.133-2.132h-3.297c-1.178,0-2.133,0.955-2.133,2.132    c-1.575-0.235-5.532-1.17-6.635-4.547c2.36-1.092,4.109-2.913,4.669-5.097h1.308c0.722,0,1.309-0.584,1.309-1.308v-0.578    c0-0.584-0.475-1.056-1.056-1.056h-1.539c-0.542-2.332-2.416-4.271-4.968-5.363v-2.559h17.651c0,2.67,2.166,4.835,4.836,4.835 h2.392v15.88h13.639c0,1.629,1.321,2.949,2.951,2.949h0.899v4.711c-2.194,0-3.972,1.778-3.972,3.971v13.529L34.06,75.511z     M95.188,101.78c0,8.655-7.012,15.665-15.664,15.665c-8.653,0-15.667-7.01-15.667-15.665c0-8.647,7.014-15.664,15.667-15.664    C88.177,86.116,95.188,93.132,95.188,101.78z M97.189,45.669h-9.556c0-0.896-0.726-1.62-1.619-1.62H74.494    c-0.896,0-1.621,0.727-1.621,1.62h-8.967v-11.21h33.283V45.669z"></path>
-      <path d="M70.865,101.78c0,4.774,3.886,8.657,8.66,8.657c4.774,0,8.657-3.883,8.657-8.657c0-4.773-3.883-8.656-8.657-8.656    C74.751,93.124,70.865,97.006,70.865,101.78z"></path>
-    </svg>
-  </div>
-  <form action="#" method="post" id="contact_form">
-    <div class="name">
-      <label for="name"></label>
-      <input type="text" placeholder="My name is" name="name" id="name_input" required>
+    <div class="container">
+        <div class="module-line"></div>
+      <div class="module-header">
+        <h2 class="module-title">
+        <span>CONTACTER</span>
+        DEMARRONS UN PROJET ENSEMBLE , N'HESITEZ PAS À ME CONTACTER</h2>
+      </div>
     </div>
-    <div class="email">
-      <label for="email"></label>
-      <input type="email" placeholder="My e-mail is" name="email" id="email_input" required>
-    </div>
-    <div class="telephone">
-      <label for="name"></label>
-      <input type="text" placeholder="My number is" name="telephone" id="telephone_input" required>
-    </div>
-    <div class="subject">
-      <label for="subject"></label>
-      <select placeholder="Subject line" name="subject" id="subject_input" required>
-        <option disabled hidden selected>Subject line</option>
-        <option>I'd like to start a project</option>
-        <option>I'd like to ask a question</option>
-        <option>I'd like to make a proposal</option>
-      </select>
-    </div>
-    <div class="message">
-      <label for="message"></label>
-      <textarea name="message" placeholder="I'd like to chat about" id="message_input" cols="30" rows="5" required></textarea>
-    </div>
-    <div class="submit">
-      <input type="submit" value="Send Message" id="form_button" />
-    </div>
-  </form><!-- // End form -->
-</div><!-- // End #container -->
+
+ <!--  </div> -->
+
+
+  <!-- -----------END------------------------- -->
+
 
 
 <!-- ----------------------------------end --------------------------------------------
@@ -530,20 +513,84 @@
 <!-- ----------------------------------FOOTER--------------------------------------------
  -->
 
-<div class="footer">
-  <div class="footer-links">
-    <a href="#"><i class="fab fa-github"></i></a>
-    <a href="#"><i class="fab fa-instagram"></i></a>
-    <a href="#"><i class="fab fa-facebook"></i></a>
-    <a href="#"><i class="fab fa-twitter"></i></a>
-    <a href="#"><i class="fab fa-linkedin"></i></a>
-  </div>
-  <div class="footer-copyright">
-    This footer is made with <i class="fas fa-heart"></i> at Le Wagon
+
+
+
+
+
+
+
+<div class="container">
+  <div class="container two">
+    <div class="row">
+      <div class="col-6">
+
+        <div class="card-two">
+           <div class="front-two">
+              <div class="log"><span></span> <%= image_tag "MYLOGOtw.png",:class => "style_imagE"%></div>
+            </div>
+          <div class="back-two">
+            <h1>Valentin Cauwet<span> <br>Développeur web<i></i> Full-stack</span></h1>
+
+              <br>
+              <br>
+                <ul class="card-visite">
+                  <p><img class="buisiness-card" src="https://img.icons8.com/ios-filled/50/000000/iphone.png"><strong>(+33) 6.74.30.61.90</></strong> </p>
+                  <br>
+                  <p><img class="buisiness-card" src="https://img.icons8.com/ios-filled/50/000000/mailbox-closed-flag-down.png"> <strong>cauwet.valentin@gmail.com</strong></p>
+                  <br>
+                  <p><img class="buisiness-card" src="https://img.icons8.com/ios-filled/50/000000/internet.png"> <strong>www.valentin-cauwet.tech</strong></p>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
   </div>
 </div>
 
 
+<div class="container">
 
-<!-- ----------------------------------end --------------------------------------------
- -->
+    <div class="container">
+
+
+
+          <div class="footer-text">
+
+             <h4 class="text-footer"> DÉVELOPPEUR INFORMATIQUE INDÉPENDANT</h4>
+            <p class="text-footer para"> <strong>Développeur Web front</strong> & <strong>back-end freelance</strong>, je suis à votre <br> disposition pour répondre à tout type de projets de création de <br>  <strong><i>sites internet</i></strong> ou <strong> <i>d'applications web</i></strong>.
+             Passionné par les technologies <br> liées au Web, je mets mes compétences au service de <br> vos besoins dans divers domaines.</p>
+              </div>
+
+
+          </div>
+           </div>
+
+
+<div class="footer">
+        <div class="footer-links">
+          <a href="https://github.com/valcwt"><img src="https://img.icons8.com/windows/50/000000/github.png"></a>
+           <a href="#"><img src="https://img.icons8.com/ios-glyphs/50/000000/instagram-new.png"></a>
+          <a href="https://www.linkedin.com/in/valentin-cauwet/"><img src="https://img.icons8.com/ios-filled/50/000000/linkedin-circled.png"></a>
+        </div>
+        <div class="container">
+          © Valentin Cauwet. Tous droits réservés.
+        </div>
+        <div class="footer-copyright">
+
+         <%= link_to "#", class: "navbar-brand" do %>
+              <%= image_tag "MYLOGOtw.png",  :class => "style_imge"%>
+              <% end %>
+        </div>
+      </div>
+
+
+
+
+
+
+

@@ -2,6 +2,32 @@
   "name": "Portfolio",
   "private": true,
   "dependencies": {
-    "particles.js": "^2.0.0"
+    "@babel/preset-react": "^7.0.0",
+    "@rails/webpacker": "^4.0.7",
+    "babel-plugin-transform-react-remove-prop-types": "^0.4.24",
+    "bootstrap": "^4.3.1",
+    "particles.js": "^2.0.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.6",
+    "react-bootstrap": "^1.0.0-beta.9",
+    "react-dom": "^16.8.6",
+    "react_ujs": "^2.5.0"
+  },
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:valcwt/Portfolio.git",
+  "author": "valcwt <cauwet.valentin@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.6",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^3.0.0",
+    "node-sass": "^4.12.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.35.3",
+    "webpack-dev-server": "^3.7.2"
   }
 }
