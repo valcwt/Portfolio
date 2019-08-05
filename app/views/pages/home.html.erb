@@ -3,7 +3,7 @@
   <div class="navbar fixed-top navbar-expand-sm navbar-light navbar-lewagon">
 
         <%= link_to "#", class: "navbar-brand" do %>
-        <%= image_tag "MYLOGOtw.png",  :class => "style_image"%>
+        <%= image_tag "logo-web-dev.png",  :class => "style_image"%>
         <% end %>
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -35,7 +35,7 @@
               <%= link_to "Contact", "#Contact", class: "nav-link" %>
                </li>
                <li class="nav-item">
-              <%= link_to "Mon cv", "#", class: "nav-link" %>
+              <%= link_to "Mon cv", "#cv", class: "nav-link" %>
                </li>
 
               </div>
@@ -49,20 +49,25 @@
 
 <!-- --------HEAD------------------------ -->
 
-<div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url('<%= image_path "office.jpg" %>');">
 
-   <div class="container head">
-      <div class="subtitle"><h2>Valentin CAUWET</h2>
-      </div>
+      <div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url('<%= image_path "office.jpg" %>');">
 
-      <div class="title">
-        Développeur Web
-      </div>
-       <div class="subtitle">Full-stack || Ruby on rails
-       </div>
+         <div class="container head">
+          <div class="row">
+            <div class="col">
+            <div class="subtitle"><h2>Valentin CAUWET</h2>
+            </div>
+
+            <div class="title">
+              Développeur Web
+            </div>
+             <div class="subtitle">Full-stack || Ruby on rails
+             </div>
+            </div>
+          </div>
       </div>
     </div>
-</div>
+  </div>
 
 <!-- -----------END------------------------- -->
 
@@ -101,13 +106,15 @@
                   <div class="col-12 text">
 
                       <p>
+                      Je suis Valentin Cauwet,
+                       <strong>passionné par l'informatique et les nouvelles technologies</strong>, j'ai commmencé à apprendre le développement de sites Web en autodictate sous Prestashop et shopify( gestion et mise en place de sites e-commerce).</p>
 
-                       <strong>Passionné par l'informatique et les nouvelles technologies</strong>, j'ai commmencé à apprendre le développement de sites Web en autodictate sous Prestashop et shopify. <br> ( gestion et mise en place de sites e-commerce)
-
-                      Suite à cette expérience, j’ai souhaité m’orienter plus profondément dans le monde de la tech et d'en faire mon métier. Dans un premier en autodidacte, j'ai étudié les languages HTML et CSS, <br>
+<p>
+                      Suite à cette expérience, j’ai souhaité m’orienter plus profondément dans le monde de la tech et d'en faire mon métier. Dans un premier en autodidacte, j'ai étudié les languages HTML et CSS,
                       puis j'ai décidé de me professionaliser en suivant la formation du Wagon et de devenir <strong>développeur web freelance</strong> afin de pouvoir aider les gens à donner vie à leurs projets.
+                      </p>
 
-                      <br>
+                      <p>
                        <strong> <h6>Le code est devenu aujourd'hui une passion.</h6></strong>
                        </p>
                 </div>
@@ -523,11 +530,11 @@
 <div class="container">
   <div class="container two">
     <div class="row">
-      <div class="col-6">
+      <div class="col-sm-6">
 
         <div class="card-two">
            <div class="front-two">
-              <div class="log"><span></span> <%= image_tag "MYLOGOtw.png",:class => "style_imagE"%></div>
+              <div class="log"><span></span> <%= image_tag "logo-web-dev.png",:class => "style_imagE"%></div>
             </div>
           <div class="back-two">
             <h1>Valentin Cauwet<span> <br>Développeur web<i></i> Full-stack</span></h1>
@@ -565,10 +572,41 @@
             <p class="text-footer para"> <strong>Développeur Web front</strong> & <strong>back-end freelance</strong>, je suis à votre <br> disposition pour répondre à tout type de projets de création de <br>  <strong><i>sites internet</i></strong> ou <strong> <i>d'applications web</i></strong>.
              Passionné par les technologies <br> liées au Web, je mets mes compétences au service de <br> vos besoins dans divers domaines.</p>
               </div>
-
-
-          </div>
+              </div>
            </div>
+
+<div class="background-color1">
+      <section id="cv" class="module cv-link">
+      <div class="container">
+        <div class="module-line"></div>
+      <div class="module-header">
+        <h2 class="module-title">
+        <span>CV</span>
+        Valentin cauwet</h2>
+      </div>
+
+    </div>
+
+
+ <div class="container card-cv ">
+    <div class="cardss">
+
+  <a  href="https://www.linkedin.com/in/valentin-cauwet/" target="_blank" style="text-decoration: none;">
+  <div class="card-category " style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('<%= image_path "card-cv.png" %>')">
+    LINKEDIN
+
+
+            <!-- <img src="https://img.icons8.com/ios-filled/50/000000/linkedin-circled.png" --> <!-- class="linkedin-link"> -->
+
+  </div>
+  </a>
+  </div>
+</section>
+</div>
+
+
+
+
 
 
 <div class="footer">
@@ -583,11 +621,10 @@
         <div class="footer-copyright">
 
          <%= link_to "#", class: "navbar-brand" do %>
-              <%= image_tag "MYLOGOtw.png",  :class => "style_imge"%>
+              <%= image_tag "logo-web-dev.png",  :class => "style_imge"%>
               <% end %>
         </div>
       </div>
-
 
 
 

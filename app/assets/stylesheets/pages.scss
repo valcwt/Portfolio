@@ -1078,13 +1078,13 @@ padding: 20px;
 }
 
 .footer {
-  background: #F4F4F4;
+  // background: #F4F4F4;
   display: flex;
   align-items: center;
   justify-content: space-between;
   height: 100px;
   padding: 0px 50px;
-  color: rgba(0,0,0,0.3);
+  // color: rgba(0,0,0,0.3);
 }
 .footer-links {
   display: flex;
@@ -1481,5 +1481,62 @@ figure:hover .captures:nth-child(8) {
 
 
 
+.cv-link {
+  padding-bottom:20px;
+}
+
+.linkedin-link {
+ color: #d93336;
+
+}
+
+.color {
+  background-color: black;
+}
 
 
+.cardss {
+  display: grid;
+  grid-template-columns: 1fr ;
+  grid-gap: 16px;
+  width: 300px;
+}
+
+// Smallest device
+@media (min-width: 100px) and (max-width: 575px) {
+  .cardss {
+    grid-template-columns: 1fr;
+  }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+  .cardss {
+    grid-template-columns: 1fr;
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  .cardss {
+    grid-template-columns: 1fr ;
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  .cardss {
+    grid-template-columns: 1fr;
+  }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+  .cardss {
+    grid-template-columns: 1fr;
+  }
+}
+.card-cv {
+  display:flex;
+  justify-content: space-around;
+}
